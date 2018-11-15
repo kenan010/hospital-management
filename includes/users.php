@@ -76,7 +76,7 @@ function admindetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
@@ -88,7 +88,7 @@ function bursardetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
@@ -101,7 +101,7 @@ function doctordetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
@@ -113,7 +113,7 @@ function receptiondetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
@@ -125,7 +125,7 @@ function laboratorydetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
@@ -137,7 +137,7 @@ function pharmacydetails()
 	$sql = "SELECT * FROM `users` WHERE `username`='$username' AND `type`='$type'";
 	$query = mysql_query($sql);
 	while ($row =mysql_fetch_array($query)) {
-		echo "Welcome, <i>".$row['fname']." ".$row['sname']."</i> (<a href='../logout.php'>Logout</a>)";
+	echo "<marquee>Welcome, <i>".$row['fname']." ".$row['sname']."</i></marquee> (<a href='../logout.php'>Logout</a>)";
 	}
 }
 
